@@ -15,7 +15,7 @@ body {
     display: inline-block;
     font-size: 48px;
     text-decoration: underline;
-    color: white;
+    color: black;
 }
 
 .header nav {
@@ -68,12 +68,15 @@ a {
 .grid-container{
   display: grid;
   grid-template-columns: auto auto;
-  background-color: #2196F3;
+  background-color: rgb(108, 104, 104);
   padding: 10px;
 }
 
 .rowTitle {
     border-right-style: solid;
+    padding: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
 }
 
 .rowContent {
