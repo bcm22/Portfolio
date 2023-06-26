@@ -5,7 +5,9 @@ body {
 .header {
     padding: 3rem;
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(46, 46, 136);
+    /* background-color: rgb(46, 46, 136); */
+    background-image: url("../images/family_pic.JPG");
+    background-size: cover;
     color: white;
 }
 
@@ -35,8 +37,7 @@ body {
 }
 
 .main-feature p {
-    float: right;
-    width: 40%;
+
     padding: 15px;
 }
 
@@ -62,4 +63,19 @@ box-shadow: inset 0px 0px 8px black;
 a {
     color: white;
     text-decoration: none;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.rowTitle {
+    border-right-style: solid;
+}
+
+.rowContent {
+
 }
