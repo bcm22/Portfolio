@@ -7,4 +7,5 @@ My motivation for this project was to lay the ground work for what will be a sol
 From this project, I learned how to create a page that is compatiable to various screen sizes. I also learned how to create a responsive button. 
 
 ##Installation
+
 click here to view the site: https://bcm22.github.io/portfolio/
